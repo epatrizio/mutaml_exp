@@ -1,4 +1,4 @@
-open Mutaml_exp
+open Lib
 
 let () = assert (fact 5 = 120)
 
