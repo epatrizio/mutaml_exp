@@ -1,4 +1,0 @@
-(executable
- (public_name mutaml_exp)
- (name main)
- (libraries mutaml_exp))
