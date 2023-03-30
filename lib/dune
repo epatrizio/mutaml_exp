@@ -1,3 +1,6 @@
 (library
  (name lib)
- (instrumentation (backend mutaml)))
+ (preprocess
+  (pps sedlex.ppx))
+ (instrumentation
+  (backend mutaml -seed 374585493)))
